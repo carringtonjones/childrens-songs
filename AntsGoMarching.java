@@ -15,7 +15,7 @@ public class AntsGoMarching
      */
     public static void goMarching(String number) 
     {
-        System.out.println("The ants go marching " + number + "by" + number);
+        System.out.println("The ants go marching " + number + " by " + number);
         System.out.println("Hoorah! Hoorah!"); 
     }
     
