@@ -2,7 +2,7 @@
  * This program sings the song "Ants Go Marching."
  * lyrics:http://www.kidspot.com.au/Baby-Baby-play-and-toys-The-ants-go-marching-lyrics+5210+425+article.htm
  * 
- * @author  Carrington Jones
+ * @author  Carrington Anne Jones
  * @version August 28, 2017
  */
 
@@ -15,10 +15,8 @@ public class AntsGoMarching
      */
     public static void goMarching(String number) 
     {
-        System.out.println("The ants go marching " + number + "by" + number.");
-        System.out.println("Hoorah! Hoorah!");
-        Sytstem.out.println("The ants go marching " + number + "by" + number.");
-        System.out.println("Hoorah! Hoorah!");
+        System.out.println("The ants go marching " + number + "by" + number);
+        System.out.println("Hoorah! Hoorah!"); 
     }
     
     /**
@@ -26,9 +24,9 @@ public class AntsGoMarching
      *
      * @param number (as a word) for how the ants march
      */ 
-    public static void noHorrah(String number)
+    public static void noHurrah(String number)
     {
-        System.out.println("The ants go marching " + number + "by" + number.");
+        System.out.println("The ants go marching " + number + "by" + number);
     }
     
     /**
@@ -62,7 +60,7 @@ public class AntsGoMarching
         goMarching(n);
         goMarching(n);
         
-        noHorrah(n);
+        noHurrah(n);
         
         littleAnt(action);
         rain();
@@ -78,6 +76,16 @@ public class AntsGoMarching
         System.out.println("Ants Go Marching\n");
         
         singIt("one","suck his thumb");
+        singIt("two", "stops to tie his shoe");
+        singIt("three", "climb a tree");
+        singIt("four", "one stops to shut the door");
+        singIt("five", "stops to take a dive");
+        singIt("six","stops to pick up sticks");
+        singIt("seven", "stops to pray to heaven");
+        singIt("eight", "stops to rollerskate");
+        singIt("nine", "stops to check the time");
+        singIt("ten", "to shout THE END");
+        
     }
    
 }
