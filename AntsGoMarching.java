@@ -26,7 +26,7 @@ public class AntsGoMarching
      */ 
     public static void noHurrah(String number)
     {
-        System.out.println("The ants go marching " + number + "by" + number);
+        System.out.println("The ants go marching " + number + " by " + number);
     }
     
     /**
