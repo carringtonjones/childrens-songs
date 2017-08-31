@@ -11,7 +11,7 @@
  *	And you turn yourself around.
  *	That's what it's all about!
  *
- * @author  Carrington Jones
+ * @author Carrington Jones
  * @version August 28, 2017
  */
 
