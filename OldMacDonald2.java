@@ -10,26 +10,34 @@
 
 public class OldMacDonald2 
 {
-    
+    /** Sings EIEIO
+     */
     public static void eieio() 
     { 
         System.out.println("Old MacDonald had a farm, E I E I O.");
     }
-
-
+    /** Prints lyrics of what old MacDonald "had"
+     * 
+     * @param animaltype tells us what animal he had
+     */
     public static void hadA(String animal) 
     { 
         System.out.println("And on that farm he had a " + animal + ", E I E I O.");
     }
-
-
+    /** Prints the lyrics of the sounds the animals make
+     * 
+     * @param soundtype makes sound of the animal
+     */
     public static void withA(String sound) 
     { 
         System.out.println("With a " + sound + " " + sound +  " here and a " + sound + " " + sound +  " there.");
         System.out.println("Here a " + sound + ", there a " + sound + ", everywhere a " + sound + ", " + sound + ".");  
     }
-
-    
+    /** Sings the song lyrics and prints it
+     * 
+     * @param animaltype what type of animal
+     * @param soundtype what sound the animal makes
+     */
     public static void singIt(String animal, String sound) 
     {
         eieio();
@@ -38,11 +46,13 @@ public class OldMacDonald2
         eieio();
         System.out.println();
     }
-
-    
+    /** Prints out title of song
+     * 
+     * @param sountype sings the sounds the animals make 
+     */
     public static void main(String[] args) 
     {
-        System.out.println("Old MacDonald Had A Farm\n"); // Give our        song a title
+        System.out.println("Old MacDonald Had A Farm\n"); // Give our song a title
 
         singIt("duck", "quack");
         singIt("cow", "moo");
