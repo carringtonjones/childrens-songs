@@ -18,7 +18,7 @@ public class OldMacDonald2
     }
     /** Prints lyrics of what old MacDonald "had"
      * 
-     * @param animaltype tells us what animal he had
+     * @param animaltype tells us what animal he had on the farm 
      */
     public static void hadA(String animal) 
     { 
